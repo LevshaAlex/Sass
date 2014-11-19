@@ -1,0 +1,33 @@
+.date-range
+	color: $dark-light
+.special-offers-page
+	aside
+		a 
+			text-decoration: none
+			font-weight: bold
+		.list-group
+			.list-group-item
+				&:first-child
+					text-transform: none 
+				a 
+					color: $main-blue
+					&:after
+						content: ''
+		& > a 
+			color: $main-blue
+			font-size: em(17px, $base-font-size)
+		.categories-drop
+			margin: 20px 0
+			font-size: em(17px, $base-font-size)
+			a 
+				text-align: left
+				font-weight: normal
+			.caret 
+				color: $dark-light
+				margin-left: 85px
+	section
+		.button-icon
+			.icon-buy,
+			.button-like > .icon-like,
+			.button-remove > .glyphicon-remove
+				vertical-align: top
